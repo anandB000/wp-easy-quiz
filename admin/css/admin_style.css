@@ -1,0 +1,160 @@
+/*admin_style*/
+.wp-easy-quiz-wrap {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wpeq-row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.wpeq-col-6 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.wpeq-col-6 {
+	float: left;
+	width: 47%;
+}
+
+.wpeq-row:before {
+	display: table;
+	content: " ";
+}
+
+.wpeq-row:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.input-control {
+	width: 100%;
+	height: 32px;
+}
+
+button.m_upload {
+	position: absolute;
+	top: 0;
+	right: -2px;
+}
+
+.meta-upload {
+	position: relative;
+}
+
+.add-quiz-qstn {
+	margin: 8px auto 25px auto;
+	position: relative;
+	padding: 0 10px;
+}
+
+.wpeq-btn-sec {
+	margin-bottom: 8px;
+}
+
+.input-control.wpeq-error {
+	border-color: #F08080;
+}
+
+.meta-upload button {
+	height: 33px;
+}
+
+.wpeq-btn {
+	cursor: pointer;
+	padding: 4px 8px;
+}
+
+.quiz-panel {
+	border: 1px solid #ccc;
+	padding: 0 15px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	background: rgba(225, 225, 225, 0.2);
+	position: relative;
+}
+
+.last-field {
+	float: right;
+	width: 16%;
+	margin: 15px auto;
+}
+
+.first-field {
+	float: left;
+	width: 80%;
+	padding-right: 15px;
+	margin: 15px auto;
+}
+
+.ans-panel .dashicons-plus {
+	font-size: 20px;
+	background: #ccc;
+	padding: 2px;
+	line-height: 23px;
+	cursor: pointer;
+}
+
+.ans-panel .dashicons-trash {
+	cursor: pointer;
+	position: relative;
+	top: 3px;
+	font-size: 23px;
+	left: 10px;
+}
+
+.wpeq-action-btns {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 500;
+}
+
+.quiz-panel h3 {
+	margin: 10px auto;
+	font-size: 15px;
+}
+
+.add-quiz-qstn {
+	display: none;
+}
+
+.wpeq-row label {
+	font-weight: 600;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.last-field input {
+	position: relative;
+	top: 6px;
+}
+
+.ans-panel {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+
+.wpeq-action-btns span {
+	cursor: pointer;
+}
+
+.ans-panel .wpeq-col-6 {
+	width: 46.8%;
+}
+
+.add-quiz-qstn.base-qp {
+	display: block;
+	padding: 0;
+	margin: 5px auto;
+}
